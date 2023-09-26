@@ -24,6 +24,7 @@ The HTML code
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <nav class="nav">
@@ -149,6 +150,7 @@ The HTML code
     <script src="index.js"></script>
   </body>
 </html>
+
 
 ```
 ### 2 . Style.css
@@ -389,7 +391,4 @@ const showPhoneDetails = (details) => {
 
 
  
-  releaseDate.innerText = `${details.releaseDate}`;
-};
 
-```
